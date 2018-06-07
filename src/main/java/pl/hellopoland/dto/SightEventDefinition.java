@@ -20,7 +20,7 @@ public class SightEventDefinition {
   public Collection<SightEventDefinition.OpeningHours> openingHours;
   public Collection<SightEventDefinition.Agreement> agreements;
 
-  public class Location {
+  public static class Location {
     public Double latitude;
     public Double longitude;
     public String street;
@@ -29,7 +29,7 @@ public class SightEventDefinition {
     public String country;
   }
 
-  public class TicketSightEventDefinition {
+  public static class TicketSightEventDefinition {
     public Long id;
     public String name;
     public Integer price;
@@ -39,17 +39,17 @@ public class SightEventDefinition {
     public Long sightEventId;
   }
 
-  public enum DateType {
+  public static enum DateType {
     UNDEFINED, DATE, DATE_TIME
   }
 
-  public class OpeningHours {
+  public static class OpeningHours {
     public Integer day;
     public LocalTime openTime;
     public LocalTime closeTime;
   }
 
-  public class Agreement {
+  public static class Agreement {
     public String name;
     public String url;
   }

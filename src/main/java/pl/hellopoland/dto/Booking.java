@@ -7,7 +7,7 @@ public class Booking {
   public String customerEmail;
   public Collection<Booking.Ticket> ticketBookings;
 
-  public class Ticket {
+  public static class Ticket {
     public Long ticketDefinitionId;
     public Long numberOfTickets;
   }
