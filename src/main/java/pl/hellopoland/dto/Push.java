@@ -1,8 +1,9 @@
 package pl.hellopoland.dto;
 
-import java.util.Collection;
+import java.util.List;
 
 public class Push {
+
   public String secret;
-  public Collection<SightEventDefinition> sightEvents;
+  public List<SightEventDefinition> sightEvents;
 }

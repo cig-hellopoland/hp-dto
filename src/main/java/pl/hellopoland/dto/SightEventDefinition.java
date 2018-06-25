@@ -1,9 +1,10 @@
 package pl.hellopoland.dto;
 
-import java.util.Collection;
 import java.util.Date;
+import java.util.List;
 
 public class SightEventDefinition {
+
   public Long id;
   public String name;
   public String lead;
@@ -15,7 +16,8 @@ public class SightEventDefinition {
   public Integer availableTicketsNumber;
   public Location location;
   public Date date;
-  public Collection<TicketDefinition> tickets;
-  public Collection<OpeningHours> openingHours;
-  public Collection<Agreement> agreements;
+  public List<TicketDefinition> tickets;
+  public List<OpeningHours> openingHours;
+  public List<Agreement> agreements;
+  public Long sightId;
 }
