@@ -1,7 +1,10 @@
 package pl.hellopoland.dto.booking;
 
+import java.util.List;
+
 public class Booking {
+
   public String customerName;
   public String customerEmail;
-  public Ticket[] ticketBookings;
+  public List<Ticket> ticketBookings;
 }
