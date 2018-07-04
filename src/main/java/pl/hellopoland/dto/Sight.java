@@ -1,5 +1,7 @@
 package pl.hellopoland.dto;
 
+import java.util.List;
+
 public class Sight {
 
   public Long id;
@@ -9,5 +11,8 @@ public class Sight {
   public Image mainImage;
   public String email;
   public String phone;
+  public boolean generalAdmission;
   public Location sightLocation;
+  public List<SightEventDefinition> sightEventDefinitions;
+
 }

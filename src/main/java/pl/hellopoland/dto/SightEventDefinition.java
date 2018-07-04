@@ -9,7 +9,7 @@ public class SightEventDefinition {
   public String name;
   public String lead;
   public String description;
-  public String mainImageUrl;
+  public Image mainImage;
   public String email;
   public String phone;
   public Integer duration;
