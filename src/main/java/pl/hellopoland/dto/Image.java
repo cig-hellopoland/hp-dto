@@ -2,8 +2,13 @@ package pl.hellopoland.dto;
 
 public class Image {
 
-  public String path;
-  public String hash;
-  public String extension;
-  public String ImageURL;
+  public String qvg;
+  public String vga;
+  public String hd;
+  public String xga;
+  public String sxga;
+  public String fhd;
+  public String fourK;
+  public String original;
+
 }
