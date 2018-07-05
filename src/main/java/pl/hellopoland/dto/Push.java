@@ -5,5 +5,5 @@ import java.util.List;
 public class Push {
 
   public String secret;
-  public List<SightEventDefinition> sightEvents;
+  public List<SightEvent> sightEvents;
 }

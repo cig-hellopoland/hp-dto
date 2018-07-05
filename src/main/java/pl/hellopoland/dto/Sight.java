@@ -12,7 +12,7 @@ public class Sight {
   public String email;
   public String phone;
   public boolean generalAdmission;
-  public Location sightLocation;
-  public List<SightEventDefinition> sightEventDefinitions;
+  public Location location;
+  public List<SightEvent> sightEvents;
 
 }

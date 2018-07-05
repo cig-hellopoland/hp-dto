@@ -3,7 +3,7 @@ package pl.hellopoland.dto;
 import java.util.Date;
 import java.util.List;
 
-public class SightEventDefinition {
+public class SightEvent {
 
   public Long id;
   public String name;
@@ -13,7 +13,6 @@ public class SightEventDefinition {
   public String email;
   public String phone;
   public Integer duration;
-  public Integer availableTicketsNumber;
   public Location location;
   public Date date;
   public List<TicketDefinition> tickets;
