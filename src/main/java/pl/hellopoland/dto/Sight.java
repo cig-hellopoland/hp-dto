@@ -11,7 +11,7 @@ public class Sight {
   public Image mainImage;
   public String email;
   public String phone;
-  public boolean generalAdmission;
+  public Boolean generalAdmission;
   public Location location;
   public List<SightEvent> sightEvents;
 

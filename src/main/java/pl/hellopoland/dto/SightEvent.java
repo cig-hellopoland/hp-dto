@@ -15,6 +15,7 @@ public class SightEvent {
   public Integer duration;
   public Location location;
   public Date date;
+  public Boolean generalAdmission;
   public List<TicketDefinition> tickets;
   public List<OpeningHours> openingHours;
   public List<Agreement> agreements;
