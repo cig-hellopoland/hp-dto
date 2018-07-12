@@ -2,8 +2,8 @@ package pl.hellopoland.dto;
 
 import java.util.List;
 
-public class Push {
+public class PushDTO {
 
   public String secret;
-  public List<SightEvent> sightEvents;
+  public List<SightEventDTO> sightEvents;
 }

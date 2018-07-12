@@ -2,17 +2,17 @@ package pl.hellopoland.dto;
 
 import java.util.List;
 
-public class Sight {
+public class SightDTO {
 
   public Long id;
   public String name;
   public String lead;
   public String description;
-  public Image mainImage;
+  public ImageDTO mainImage;
   public String email;
   public String phone;
   public Boolean generalAdmission;
-  public Location location;
-  public List<SightEvent> sightEvents;
+  public LocationDTO location;
+  public List<SightEventDTO> sightEvents;
 
 }

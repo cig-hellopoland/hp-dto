@@ -1,6 +1,6 @@
 package pl.hellopoland.dto;
 
-public class Image {
+public class ImageDTO {
 
   public String qvg;
   public String vga;
