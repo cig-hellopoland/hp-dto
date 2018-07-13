@@ -8,6 +8,7 @@ public class SightEventDTO {
   public String name;
   public String lead;
   public String description;
+  public String mainImageUrl;
   public ImageDTO mainImage;
   public String email;
   public String phone;

@@ -24,6 +24,10 @@ public class TicketPoolDefinitionDTO {
 
   public DateTypeDTO dateType;
 
+  public Boolean predefinedDate;
+
+  public Date date;
+
   public Long sightEventId;
 
   public List<TicketDefinitionDTO> ticketDefinitions;
