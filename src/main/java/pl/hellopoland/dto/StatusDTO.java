@@ -1,6 +1,6 @@
 package pl.hellopoland.dto;
 
-public enum Status {
+public enum StatusDTO {
 
   BOOKED,
 

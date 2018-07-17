@@ -3,7 +3,7 @@ package pl.hellopoland.dto.booking;
 import java.util.Date;
 import java.util.List;
 import javax.json.bind.annotation.JsonbDateFormat;
-import pl.hellopoland.dto.Status;
+import pl.hellopoland.dto.StatusDTO;
 
 public class BookingDTO {
 
@@ -16,7 +16,7 @@ public class BookingDTO {
 
   public String customerEmail;
 
-  public Status status;
+  public StatusDTO status;
 
   public String serialNumber;
 

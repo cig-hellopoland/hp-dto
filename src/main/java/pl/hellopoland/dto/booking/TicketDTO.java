@@ -3,7 +3,7 @@ package pl.hellopoland.dto.booking;
 import java.io.ByteArrayOutputStream;
 import java.util.Date;
 import javax.json.bind.annotation.JsonbDateFormat;
-import pl.hellopoland.dto.Status;
+import pl.hellopoland.dto.StatusDTO;
 import pl.hellopoland.dto.TicketDefinitionDTO;
 
 public class TicketDTO {
@@ -17,7 +17,7 @@ public class TicketDTO {
   @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
   public Date date;
 
-  public Status status;
+  public StatusDTO status;
 
   public Long ticketDefinitionId;
 
