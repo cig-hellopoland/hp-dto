@@ -16,5 +16,7 @@ public class SightEventDTO {
   public LocationDTO location;
   public Boolean generalAdmission;
   public List<TicketDefinitionDTO> ticketDefinitions;
+  public List<TicketPoolDefinitionDTO> ticketPoolDefinitions;
+  public List<TicketPoolDTO> ticketPools;
   public Long sightId;
 }
