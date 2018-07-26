@@ -22,6 +22,12 @@ public class TicketPoolDefinitionDTO {
   @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
   public Date endDate;
 
+  @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
+  private Date entryStartDate;
+
+  @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
+  private Date entryEndDate;
+
   public DateTypeDTO dateType;
 
   public Boolean predefinedDate;
