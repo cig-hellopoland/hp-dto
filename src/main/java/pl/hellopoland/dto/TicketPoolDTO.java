@@ -19,10 +19,10 @@ public class TicketPoolDTO {
   public Date endDate;
 
   @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
-  private Date entryStartDate;
+  public Date entryStartDate;
 
   @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
-  private Date entryEndDate;
+  public Date entryEndDate;
 
   public DateTypeDTO dateType;
 
