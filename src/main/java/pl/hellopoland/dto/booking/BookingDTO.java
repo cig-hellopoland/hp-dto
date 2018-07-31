@@ -9,7 +9,7 @@ public class BookingDTO {
 
   public Long id;
 
-  @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
+  @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss'Z'")
   public Date date;
 
   public String customerName;

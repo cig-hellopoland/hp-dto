@@ -14,7 +14,7 @@ public class TicketDTO {
 
   public Integer price;
 
-  @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
+  @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss'Z'")
   public Date date;
 
   public StatusDTO status;
