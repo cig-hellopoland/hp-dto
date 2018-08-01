@@ -8,6 +8,7 @@ public class SightDTO {
   public String name;
   public String lead;
   public String description;
+  public Float score;
   public ImageDTO mainImage;
   public String email;
   public String phone;
