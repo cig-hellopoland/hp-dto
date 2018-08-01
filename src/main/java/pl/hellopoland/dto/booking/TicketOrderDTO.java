@@ -1,7 +1,6 @@
 package pl.hellopoland.dto.booking;
 
 import java.util.Date;
-import javax.json.bind.annotation.JsonbDateFormat;
 
 public class TicketOrderDTO {
 
@@ -13,6 +12,5 @@ public class TicketOrderDTO {
 
   public Long numberOfTickets;
 
-  @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss'Z'")
   public Date date;
 }

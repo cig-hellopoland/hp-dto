@@ -2,7 +2,6 @@ package pl.hellopoland.dto;
 
 import java.util.Date;
 import java.util.List;
-import javax.json.bind.annotation.JsonbDateFormat;
 
 public class TicketPoolDefinitionDTO {
 
@@ -16,23 +15,18 @@ public class TicketPoolDefinitionDTO {
 
   public FrequencyDataDTO frequencyData;
 
-  @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss'Z'")
   public Date startDate;
 
-  @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss'Z'")
   public Date endDate;
 
-  @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss'Z'")
   public Date entryStartDate;
 
-  @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss'Z'")
   public Date entryEndDate;
 
   public DateTypeDTO dateType;
 
   public Boolean predefinedDate;
 
-  @JsonbDateFormat(value = "yyyy-MM-dd'T'HH:mm:ss'Z'")
   public Date date;
 
   public Long sightEventId;
