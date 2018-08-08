@@ -1,5 +1,6 @@
 package pl.hellopoland.dto;
 
+import java.util.Date;
 import java.util.List;
 
 public class FrequencyDataDTO {
@@ -8,5 +9,6 @@ public class FrequencyDataDTO {
   public List<Integer> monthsOfYear;
   public Integer frequency;
   public FrequencyTypeDTO frequencyType;
-
+  public Date startDate;
+  public Date endDate;
 }
