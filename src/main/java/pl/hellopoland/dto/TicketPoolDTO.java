@@ -20,12 +20,6 @@ public class TicketPoolDTO {
 
   public Date entryEndDate;
 
-  public Boolean predefinedDate;
-
-  public Date date;
-
-  public Long sightEventId;
-
   public List<TicketDTO> tickets;
 
   public Integer boughtTicketNumber;
