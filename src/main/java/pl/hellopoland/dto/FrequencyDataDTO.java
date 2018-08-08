@@ -1,13 +1,12 @@
 package pl.hellopoland.dto;
 
-import java.time.DayOfWeek;
+import java.util.List;
 
 public class FrequencyDataDTO {
 
-  public FrequencyTypeDTO frequencyType;
-  public DayOfWeek dayOfWeek;
-  public Integer dayOfMonth;
-  public Integer month;
+  public List<Integer> daysOfWeek;
+  public List<Integer> monthsOfYear;
   public Integer frequency;
+  public FrequencyTypeDTO frequencyType;
 
 }

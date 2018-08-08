@@ -16,9 +16,7 @@ public class SightEventDTO {
   public LocationDTO location;
   public Boolean generalAdmission;
   public Integer minPrice;
-  public List<TicketDefinitionDTO> ticketDefinitions;
   public List<TicketPoolDefinitionDTO> ticketPoolDefinitions;
-  public List<TicketPoolDTO> ticketPools;
   public Long sightId;
 
 }

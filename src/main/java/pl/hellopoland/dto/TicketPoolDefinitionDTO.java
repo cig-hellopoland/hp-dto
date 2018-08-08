@@ -11,7 +11,7 @@ public class TicketPoolDefinitionDTO {
 
   public Integer availableTicketsNumber;
 
-  public Boolean cyclicalPool;
+  public Boolean isCyclic;
 
   public FrequencyDataDTO frequencyData;
 
@@ -22,12 +22,6 @@ public class TicketPoolDefinitionDTO {
   public Date entryStartDate;
 
   public Date entryEndDate;
-
-  public DateTypeDTO dateType;
-
-  public Boolean predefinedDate;
-
-  public Date date;
 
   public Long sightEventId;
 

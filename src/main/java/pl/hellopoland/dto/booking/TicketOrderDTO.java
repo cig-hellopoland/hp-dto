@@ -8,8 +8,6 @@ public class TicketOrderDTO {
 
   public Long ticketPoolDefinitionId;
 
-  public Long ticketPoolId;
-
   public Long numberOfTickets;
 
   public Date date;

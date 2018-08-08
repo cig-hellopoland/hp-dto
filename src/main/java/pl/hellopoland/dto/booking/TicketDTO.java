@@ -3,7 +3,6 @@ package pl.hellopoland.dto.booking;
 import java.io.ByteArrayOutputStream;
 import java.util.Date;
 import pl.hellopoland.dto.StatusDTO;
-import pl.hellopoland.dto.TicketDefinitionDTO;
 
 public class TicketDTO {
 
@@ -17,13 +16,12 @@ public class TicketDTO {
 
   public StatusDTO status;
 
-  public Long ticketDefinitionId;
-
   public String serialNumber;
 
   public ByteArrayOutputStream qrCode;
 
-  public BookingDTO booking;
+  public Long ticketDefinitionId;
 
-  public TicketDefinitionDTO ticketDefinition;
+  public Long bookingId;
+
 }

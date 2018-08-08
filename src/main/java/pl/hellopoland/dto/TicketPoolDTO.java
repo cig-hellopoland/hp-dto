@@ -2,6 +2,7 @@ package pl.hellopoland.dto;
 
 import java.util.Date;
 import java.util.List;
+import pl.hellopoland.dto.booking.TicketDTO;
 
 public class TicketPoolDTO {
 
@@ -19,16 +20,13 @@ public class TicketPoolDTO {
 
   public Date entryEndDate;
 
-  public DateTypeDTO dateType;
-
   public Boolean predefinedDate;
 
   public Date date;
 
   public Long sightEventId;
 
-  public List<TicketDefinitionDTO> ticketDefinitions;
-
+  public List<TicketDTO> tickets;
 
   public Integer boughtTicketNumber;
 
