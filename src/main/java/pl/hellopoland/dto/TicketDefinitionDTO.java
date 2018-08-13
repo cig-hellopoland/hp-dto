@@ -6,5 +6,6 @@ public class TicketDefinitionDTO {
   public String name;
   public Integer availableTicketsNumber;
   public Integer price;
+  public Long poolId;
 
 }
