@@ -10,6 +10,7 @@ public class SightEventDTO {
   public String description;
   public Float score;
   public ImageDTO mainImage;
+  public List<ImageDTO> images;
   public String email;
   public String phone;
   public Integer duration;
