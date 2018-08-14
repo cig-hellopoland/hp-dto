@@ -24,4 +24,6 @@ public class TicketDTO {
 
   public Long bookingId;
 
+  public BookingDTO booking;
+
 }
