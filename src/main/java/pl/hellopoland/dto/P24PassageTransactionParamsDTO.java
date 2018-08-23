@@ -8,7 +8,6 @@ public class P24PassageTransactionParamsDTO {
   public String city;
   public String client;
   public String country;
-  public String crc;
   public String currency;
   public String description;
   public String email;
