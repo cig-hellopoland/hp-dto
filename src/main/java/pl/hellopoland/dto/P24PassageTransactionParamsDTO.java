@@ -15,6 +15,7 @@ public class P24PassageTransactionParamsDTO {
   public Integer merchantId;
   public String phone;
   public String sessionId;
+  public String sign;
   public String urlStatus;
   public String zip;
   public Collection<P24PassageCartEntryDTO> passageCart;
