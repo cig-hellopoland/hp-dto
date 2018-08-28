@@ -19,5 +19,5 @@ public class SightEventDTO {
   public Integer minPrice;
   public List<TicketPoolDefinitionDTO> ticketPoolDefinitions;
   public Long sightId;
-
+  public List<OpeningHoursDTO> openingHours;
 }

@@ -16,5 +16,5 @@ public class SightDTO {
   public Boolean generalAdmission;
   public LocationDTO location;
   public List<SightEventDTO> sightEvents;
-
+  public List<OpeningHoursDTO> openingHours;
 }
