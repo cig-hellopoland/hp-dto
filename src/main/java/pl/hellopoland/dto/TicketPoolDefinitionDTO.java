@@ -27,4 +27,6 @@ public class TicketPoolDefinitionDTO {
 
   public List<TicketDefinitionDTO> ticketDefinitions;
 
+  public boolean deleted;
+
 }
