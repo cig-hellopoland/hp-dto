@@ -7,6 +7,5 @@ public class TicketDefinitionDTO {
   public Integer availableTicketsNumber;
   public Integer price;
   public Long poolId;
-  public Long sightEventId;
 
 }
