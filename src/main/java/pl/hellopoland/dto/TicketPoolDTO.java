@@ -26,4 +26,8 @@ public class TicketPoolDTO {
 
   public Integer totalTicketsNumber;
 
+  public List<TicketDefinitionDTO> ticketDefinitions;
+
+  public Long ticketPoolDefinitionId;
+
 }

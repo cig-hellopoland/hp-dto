@@ -1,8 +1,7 @@
 package pl.hellopoland.dto;
 
+import java.util.List;
+
 public class AvailableTicketNumberAssociationDTO {
-  public Integer availableTicketsNumber;
-  public TicketDefinitionDTO ticketDefinition;
-  public TicketPoolDefinitionDTO ticketPoolDefinition;
-  public TicketPoolDTO ticketPool;
+  public List<Object> ticketPools;
 }
