@@ -20,4 +20,5 @@ public class SightEventDTO {
   public List<TicketPoolDefinitionDTO> ticketPoolDefinitions;
   public Long sightId;
   public List<OpeningHoursDTO> openingHours;
+  public List<AgreementDTO> agreements;
 }

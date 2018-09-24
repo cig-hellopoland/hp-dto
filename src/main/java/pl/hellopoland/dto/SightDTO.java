@@ -17,4 +17,5 @@ public class SightDTO {
   public LocationDTO location;
   public List<SightEventDTO> sightEvents;
   public List<OpeningHoursDTO> openingHours;
+  public List<AgreementDTO> agreements;
 }
