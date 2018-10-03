@@ -21,4 +21,5 @@ public class SightEventDTO {
   public Long sightId;
   public List<OpeningHoursDTO> openingHours;
   public List<AgreementDTO> agreements;
+  public FileDescriptorDTO pdfAttachment;
 }
