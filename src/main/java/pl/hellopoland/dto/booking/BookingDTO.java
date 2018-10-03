@@ -2,6 +2,8 @@ package pl.hellopoland.dto.booking;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
+import pl.hellopoland.dto.FileDescriptorDTO;
 import pl.hellopoland.dto.StatusDTO;
 
 public class BookingDTO {
@@ -21,4 +23,6 @@ public class BookingDTO {
   public List<TicketDTO> tickets;
 
   public List<TicketOrderDTO> ticketBookings;
+
+  public Set<FileDescriptorDTO> sightEventPdfAttachments;
 }
