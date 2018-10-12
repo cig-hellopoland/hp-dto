@@ -2,9 +2,10 @@ package pl.hellopoland.dto.booking;
 
 import java.io.ByteArrayOutputStream;
 import java.util.Date;
+import pl.hellopoland.dto.DTOSuperclass;
 import pl.hellopoland.dto.StatusDTO;
 
-public class TicketDTO {
+public class TicketDTO extends DTOSuperclass {
 
   public Long id;
 

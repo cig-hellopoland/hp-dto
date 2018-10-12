@@ -2,7 +2,7 @@ package pl.hellopoland.dto;
 
 import java.util.List;
 
-public class TicketDefinitionDTO {
+public class TicketDefinitionDTO extends DTOSuperclass {
 
   public Long id;
   public String name;

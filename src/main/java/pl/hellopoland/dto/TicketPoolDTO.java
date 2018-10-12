@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.List;
 import pl.hellopoland.dto.booking.TicketDTO;
 
-public class TicketPoolDTO {
+public class TicketPoolDTO extends DTOSuperclass {
 
   public Long id;
 

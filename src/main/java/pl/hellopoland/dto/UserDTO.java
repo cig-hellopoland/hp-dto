@@ -1,6 +1,6 @@
 package pl.hellopoland.dto;
 
-public class UserDTO {
+public class UserDTO extends DTOSuperclass {
 
   public Long id;
   public String name;

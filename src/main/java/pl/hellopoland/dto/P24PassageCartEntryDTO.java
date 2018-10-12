@@ -1,6 +1,6 @@
 package pl.hellopoland.dto;
 
-public class P24PassageCartEntryDTO {
+public class P24PassageCartEntryDTO extends DTOSuperclass {
   public String description;
   public String name;
   public Long number;

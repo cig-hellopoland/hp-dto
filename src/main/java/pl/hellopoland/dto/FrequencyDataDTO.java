@@ -3,7 +3,7 @@ package pl.hellopoland.dto;
 import java.util.Date;
 import java.util.List;
 
-public class FrequencyDataDTO {
+public class FrequencyDataDTO extends DTOSuperclass {
 
   public List<Integer> daysOfWeek;
   public List<Integer> daysOfMonth;

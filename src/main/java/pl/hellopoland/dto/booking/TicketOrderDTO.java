@@ -1,8 +1,9 @@
 package pl.hellopoland.dto.booking;
 
 import java.util.Date;
+import pl.hellopoland.dto.DTOSuperclass;
 
-public class TicketOrderDTO {
+public class TicketOrderDTO extends DTOSuperclass {
 
   public Long ticketDefinitionId;
 

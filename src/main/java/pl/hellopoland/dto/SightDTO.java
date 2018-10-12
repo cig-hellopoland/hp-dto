@@ -2,7 +2,7 @@ package pl.hellopoland.dto;
 
 import java.util.List;
 
-public class SightDTO {
+public class SightDTO extends DTOSuperclass {
 
   public Long id;
   public String name;

@@ -2,7 +2,7 @@ package pl.hellopoland.dto;
 
 import java.util.Collection;
 
-public class P24PassageTransactionParamsDTO {
+public class P24PassageTransactionParamsDTO extends DTOSuperclass {
   public String address;
   public Integer amount;
   public String city;

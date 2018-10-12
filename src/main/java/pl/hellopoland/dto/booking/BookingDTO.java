@@ -3,10 +3,11 @@ package pl.hellopoland.dto.booking;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
+import pl.hellopoland.dto.DTOSuperclass;
 import pl.hellopoland.dto.FileDescriptorDTO;
 import pl.hellopoland.dto.StatusDTO;
 
-public class BookingDTO {
+public class BookingDTO extends DTOSuperclass {
 
   public Long id;
 

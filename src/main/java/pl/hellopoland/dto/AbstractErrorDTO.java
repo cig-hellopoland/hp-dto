@@ -1,6 +1,6 @@
 package pl.hellopoland.dto;
 
-public class AbstractErrorDTO {
+public class AbstractErrorDTO extends DTOSuperclass {
 
   public String exception;
   public String message;

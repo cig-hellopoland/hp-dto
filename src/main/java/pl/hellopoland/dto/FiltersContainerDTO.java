@@ -2,6 +2,6 @@ package pl.hellopoland.dto;
 
 import java.util.List;
 
-public class FiltersContainerDTO {
+public class FiltersContainerDTO extends DTOSuperclass {
   public List<String> cities;
 }

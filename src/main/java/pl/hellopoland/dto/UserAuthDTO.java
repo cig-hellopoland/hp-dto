@@ -1,6 +1,6 @@
 package pl.hellopoland.dto;
 
-public class UserAuthDTO {
+public class UserAuthDTO extends DTOSuperclass {
 
   public String login;
   public String password;

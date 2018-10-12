@@ -1,6 +1,6 @@
 package pl.hellopoland.dto;
 
-public class LocationDTO {
+public class LocationDTO extends DTOSuperclass {
 
   public Double latitude;
   public Double longitude;

@@ -1,6 +1,6 @@
 package pl.hellopoland.dto;
 
-public class ApplicationPropertyDTO {
+public class ApplicationPropertyDTO extends DTOSuperclass {
 
   public String propertyName;
   public String propertyValue;

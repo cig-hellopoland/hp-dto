@@ -3,7 +3,7 @@ package pl.hellopoland.dto;
 import java.util.Date;
 import java.util.List;
 
-public class TicketPoolDefinitionDTO {
+public class TicketPoolDefinitionDTO extends DTOSuperclass {
 
   public Long id;
 
