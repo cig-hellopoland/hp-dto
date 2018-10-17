@@ -22,4 +22,6 @@ public class SightEventDTO extends DTOSuperclass {
   public List<OpeningHoursDTO> openingHours;
   public List<AgreementDTO> agreements;
   public FileDescriptorDTO pdfAttachment;
+  public boolean published;
+  public boolean blocked;
 }

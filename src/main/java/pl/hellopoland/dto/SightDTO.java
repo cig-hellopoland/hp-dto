@@ -18,4 +18,6 @@ public class SightDTO extends DTOSuperclass {
   public List<SightEventDTO> sightEvents;
   public List<OpeningHoursDTO> openingHours;
   public List<AgreementDTO> agreements;
+  public boolean published;
+  public boolean blocked;
 }
