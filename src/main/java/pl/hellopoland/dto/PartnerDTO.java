@@ -9,4 +9,6 @@ public class PartnerDTO extends DTOSuperclass {
   public List<UserDTO> users;
   public List<SightEventDTO> sightEvents;
   public String token;
+  public String email;
+  public Integer p24MerchantId;
 }
