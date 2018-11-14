@@ -1,5 +1,6 @@
 package pl.hellopoland.dto;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 public class PartnerDTO extends DTOSuperclass {
@@ -11,5 +12,5 @@ public class PartnerDTO extends DTOSuperclass {
   public String token;
   public String email;
   public Integer p24MerchantId;
-  public double commission;
+  public BigDecimal commission;
 }
