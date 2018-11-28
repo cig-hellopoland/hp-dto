@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Set;
 import pl.hellopoland.dto.DTOSuperclass;
 import pl.hellopoland.dto.FileDescriptorDTO;
-import pl.hellopoland.dto.PartnerDTO;
 import pl.hellopoland.dto.StatusDTO;
 
 public class BookingDTO extends DTOSuperclass {
@@ -28,5 +27,5 @@ public class BookingDTO extends DTOSuperclass {
 
   public Set<FileDescriptorDTO> sightEventPdfAttachments;
 
-  public Set<PartnerDTO> partners;
+  public Set<String> partnersEmails;
 }
