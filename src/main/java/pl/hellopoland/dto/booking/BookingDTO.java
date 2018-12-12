@@ -26,6 +26,4 @@ public class BookingDTO extends DTOSuperclass {
   public List<TicketOrderDTO> ticketBookings;
 
   public Set<FileDescriptorDTO> sightEventPdfAttachments;
-
-  public Set<String> partnersEmails;
 }
