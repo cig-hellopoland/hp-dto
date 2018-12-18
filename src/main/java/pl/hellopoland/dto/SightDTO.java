@@ -20,4 +20,5 @@ public class SightDTO extends DTOSuperclass {
   public List<AgreementDTO> agreements;
   public Boolean published;
   public Boolean blocked;
+  public Integer minPrice;
 }
