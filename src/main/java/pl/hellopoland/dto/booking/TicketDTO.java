@@ -23,6 +23,8 @@ public class TicketDTO extends DTOSuperclass {
 
   public Long ticketDefinitionId;
 
+  public Long tickerPoolDefinitionId;
+
   public Long bookingId;
 
   public BookingDTO booking;
