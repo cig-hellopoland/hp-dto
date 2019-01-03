@@ -7,4 +7,5 @@ public class FileDescriptorDTO extends DTOSuperclass {
   public String path;
   public LocalDateTime created;
   public String type;
+  public String name;
 }
