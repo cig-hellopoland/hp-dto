@@ -8,4 +8,5 @@ public class LocationDTO extends DTOSuperclass {
   public String zipCode;
   public String city;
   public String country;
+  public String directions;
 }
