@@ -24,4 +24,5 @@ public class SightEventDTO extends DTOSuperclass {
   public FileDescriptorDTO pdfAttachment;
   public Boolean published;
   public Boolean blocked;
+  public Boolean wholeDay;
 }
