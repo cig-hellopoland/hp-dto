@@ -28,5 +28,6 @@ public class TicketPoolDefinitionDTO extends DTOSuperclass {
   public List<TicketDefinitionDTO> ticketDefinitions;
 
   public boolean deleted;
+  public Boolean wholeDay;
 
 }
