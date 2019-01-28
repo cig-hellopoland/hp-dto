@@ -29,5 +29,6 @@ public class TicketPoolDTO extends DTOSuperclass {
   public List<TicketDefinitionDTO> ticketDefinitions;
 
   public Long ticketPoolDefinitionId;
+  public boolean wholeDay;
 
 }
