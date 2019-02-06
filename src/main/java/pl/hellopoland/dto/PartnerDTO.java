@@ -13,4 +13,5 @@ public class PartnerDTO extends DTOSuperclass {
   public String email;
   public Integer p24MerchantId;
   public BigDecimal commission;
+  public String password;
 }
