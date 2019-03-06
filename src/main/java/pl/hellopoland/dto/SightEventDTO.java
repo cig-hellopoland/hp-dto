@@ -25,5 +25,5 @@ public class SightEventDTO extends DTOSuperclass {
   public Boolean published;
   public Boolean blocked;
   public String partnerAffiliateCode;
-  public LanguageVersionDTO defaultLanguage;
+  public String defaultLanguage;
 }
