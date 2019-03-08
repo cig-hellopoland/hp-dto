@@ -1,6 +1,7 @@
 package pl.hellopoland.dto;
 
 import java.util.List;
+import java.util.Set;
 
 public class SightDTO extends DTOSuperclass {
 
@@ -22,4 +23,5 @@ public class SightDTO extends DTOSuperclass {
   public Boolean blocked;
   public Integer minPrice;
   public String defaultLanguage;
+  public Set<String> availableLanguageVersions;
 }

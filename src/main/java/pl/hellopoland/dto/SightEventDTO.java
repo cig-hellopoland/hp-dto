@@ -1,6 +1,7 @@
 package pl.hellopoland.dto;
 
 import java.util.List;
+import java.util.Set;
 
 public class SightEventDTO extends DTOSuperclass {
 
@@ -26,4 +27,5 @@ public class SightEventDTO extends DTOSuperclass {
   public Boolean blocked;
   public String partnerAffiliateCode;
   public String defaultLanguage;
+  public Set<String> availableLanguageVersions;
 }
