@@ -28,4 +28,5 @@ public class SightEventDTO extends DTOSuperclass {
   public String partnerAffiliateCode;
   public String defaultLanguage;
   public Set<String> availableLanguageVersions;
+  public String language;
 }

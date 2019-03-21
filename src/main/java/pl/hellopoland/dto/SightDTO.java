@@ -24,4 +24,5 @@ public class SightDTO extends DTOSuperclass {
   public Integer minPrice;
   public String defaultLanguage;
   public Set<String> availableLanguageVersions;
+  public String language;
 }
