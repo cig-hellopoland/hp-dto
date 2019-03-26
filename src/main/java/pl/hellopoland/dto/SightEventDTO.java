@@ -29,4 +29,5 @@ public class SightEventDTO extends DTOSuperclass {
   public String defaultLanguage;
   public Set<String> availableLanguageVersions;
   public String language;
+  public Integer promotion;
 }
