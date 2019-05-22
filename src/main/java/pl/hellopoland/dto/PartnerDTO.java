@@ -15,4 +15,19 @@ public class PartnerDTO extends DTOSuperclass {
   public BigDecimal commission;
   public String password;
   public String affiliateCode;
+  public LocationDTO location;
+  public String bankAccount;
+  public Integer businessType;
+  public ContactPersonDTO contactPerson;
+  public LocationDTO correspondenceAddress;
+  public String invoiceEmail;
+  public String krs;
+  public String nip;
+  public Integer pesel;
+  public String phoneNumber;
+  public String regon;
+  public List<PartnerRepresentativeDTO> representatives;
+  public String servicesDescription;
+  public String shopUrl;
+  public ContactPersonDTO technicalContact;
 }
