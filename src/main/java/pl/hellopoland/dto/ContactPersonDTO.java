@@ -1,7 +1,7 @@
 package pl.hellopoland.dto;
 
-public class ContactPersonDTO {
+public class ContactPersonDTO extends DTOSuperclass {
   public String name;
   public String email;
-  public Integer phone_number;
+  public Integer phoneNumber;
 }
