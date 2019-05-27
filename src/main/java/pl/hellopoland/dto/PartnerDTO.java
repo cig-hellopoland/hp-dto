@@ -22,9 +22,9 @@ public class PartnerDTO extends DTOSuperclass {
   public LocationDTO correspondenceAddress;
   public String invoiceEmail;
   public String krs;
-  public String nip;
-  public Integer pesel;
-  public String phoneNumber;
+  public String taxNumber;
+  public Integer socialNumber;
+  public String phone;
   public String regon;
   public List<PartnerRepresentativeDTO> representatives;
   public String servicesDescription;
