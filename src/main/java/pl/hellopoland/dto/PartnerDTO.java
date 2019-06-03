@@ -15,6 +15,7 @@ public class PartnerDTO extends DTOSuperclass {
   public BigDecimal commission;
   public String password;
   public String affiliateCode;
+  public Boolean affiliation;
   public LocationDTO location;
   public String bankAccount;
   public Integer businessType;
@@ -23,7 +24,7 @@ public class PartnerDTO extends DTOSuperclass {
   public String invoiceEmail;
   public String krs;
   public String taxNumber;
-  public Integer socialNumber;
+  public String socialNumber;
   public String phone;
   public String regon;
   public List<PartnerRepresentativeDTO> representatives;
