@@ -1,5 +1,5 @@
 package pl.hellopoland.dto;
 
 public enum RoleDTO {
-  ROOT, ADMIN, PARTNER, USHER, USER;
+  ROOT, ADMIN, PARTNER, SALESMAN, USHER, USER;
 }
