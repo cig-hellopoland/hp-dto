@@ -18,6 +18,7 @@ public class P24PassageTransactionParamsDTO extends DTOSuperclass {
   public String sign;
   public String urlStatus;
   public String zip;
+  public String encoding;
   public Collection<P24PassageCartEntryDTO> passageCart;
 
 }
