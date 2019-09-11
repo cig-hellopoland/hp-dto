@@ -5,7 +5,7 @@
 
 	<groupId>pl.hellopoland</groupId>
 	<artifactId>hellopoland-dto</artifactId>
-	<version>1.0.29</version>
+	<version>1.0.34</version>
 	<packaging>jar</packaging>
 
 	<name>hellopoland-dto</name>
@@ -44,7 +44,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<version>2.4.2</version>
 			</plugin>
 
 		</plugins>

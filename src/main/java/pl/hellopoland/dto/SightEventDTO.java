@@ -19,7 +19,6 @@ public class SightEventDTO extends DTOSuperclass {
   public Boolean generalAdmission;
   public Integer minPrice;
   public List<TicketPoolDefinitionDTO> ticketPoolDefinitions;
-  public Long sightId;
   public List<OpeningHoursDTO> openingHours;
   public List<AgreementDTO> agreements;
   public FileDescriptorDTO pdfAttachment;
@@ -30,4 +29,8 @@ public class SightEventDTO extends DTOSuperclass {
   public Set<String> availableLanguageVersions;
   public String language;
   public Integer promotion;
+  public Long partnerId;
+  public String partnerName;
+  public Long sightId;
+  public String sightName;
 }
