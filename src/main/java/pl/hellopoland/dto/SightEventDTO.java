@@ -33,4 +33,6 @@ public class SightEventDTO extends DTOSuperclass {
   public String partnerName;
   public Long sightId;
   public String sightName;
+  public Set<CategoryDTO> categories;
+
 }
