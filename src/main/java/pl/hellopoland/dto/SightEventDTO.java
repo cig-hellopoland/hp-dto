@@ -29,6 +29,7 @@ public class SightEventDTO extends DTOSuperclass {
   public Set<String> availableLanguageVersions;
   public String language;
   public Integer promotion;
+  public Boolean promoted;
   public Long partnerId;
   public String partnerName;
   public Long sightId;
