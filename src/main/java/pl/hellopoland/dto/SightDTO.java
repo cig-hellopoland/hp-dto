@@ -26,5 +26,6 @@ public class SightDTO extends DTOSuperclass {
   public Set<String> availableLanguageVersions;
   public String language;
   public Set<CategoryDTO> categories;
+  public List<SightDTO> similar;
 
 }
