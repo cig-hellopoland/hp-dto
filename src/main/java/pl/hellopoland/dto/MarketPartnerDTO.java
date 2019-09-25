@@ -4,6 +4,7 @@ import java.util.List;
 
 public class MarketPartnerDTO extends DTOSuperclass {
 
+  public Long id;
   public String name;
   public List<CategoryDTO> categories;
   public ImageDTO mainImage;
