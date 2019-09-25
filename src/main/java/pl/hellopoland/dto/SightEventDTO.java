@@ -35,6 +35,7 @@ public class SightEventDTO extends DTOSuperclass {
   public Long sightId;
   public String sightName;
   public Set<CategoryDTO> categories;
+  public Set<TagDTO> tags;
   public List<SightEventDTO> similar;
 
 }

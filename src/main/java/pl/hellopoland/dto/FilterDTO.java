@@ -11,7 +11,7 @@ public class FilterDTO {
   public LocalDate toDate = LocalDate.now().plusDays(30);
   public List<String> city = new ArrayList<>();
   public List<FilterPriceEntryDTO> prices = new ArrayList<>();
-  public List<CategoryDTO> tags = new ArrayList<>();
+  public List<TagDTO> tags = new ArrayList<>();
   public List<CategoryDTO> categories = new ArrayList<>();
 
 }
