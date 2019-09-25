@@ -2,6 +2,7 @@ package pl.hellopoland.dto;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Set;
 
 public class PartnerDTO extends DTOSuperclass {
 
@@ -11,6 +12,10 @@ public class PartnerDTO extends DTOSuperclass {
   public List<SightEventDTO> sightEvents;
   public String token;
   public String email;
+  public String description;
+  public String defaultLanguage;
+  public Set<String> availableLanguageVersions;
+  public String language;
   public Integer p24MerchantId;
   public BigDecimal commission;
   public String password;
