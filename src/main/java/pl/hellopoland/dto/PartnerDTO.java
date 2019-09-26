@@ -37,5 +37,6 @@ public class PartnerDTO extends DTOSuperclass {
   public String shopUrl;
   public ContactPersonDTO technicalContact;
   public boolean skipP24;
+  public boolean blocked;
 
 }
