@@ -23,6 +23,7 @@ public class PartnerDTO extends DTOSuperclass {
   public Boolean affiliation;
   public LocationDTO location;
   public String bankAccount;
+  public ImageDTO mainImage;
   public Integer businessType;
   public ContactPersonDTO contactPerson;
   public LocationDTO correspondenceAddress;
