@@ -28,5 +28,7 @@ public class SightDTO extends DTOSuperclass {
   public Set<CategoryDTO> categories;
   public Set<TagDTO> tags;
   public List<SightDTO> similar;
+  public Long partnerId;
+  public String partnerName;
 
 }
