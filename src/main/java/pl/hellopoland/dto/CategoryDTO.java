@@ -9,6 +9,7 @@ public class CategoryDTO extends DTOSuperclass {
   public String language;
   public String defaultLanguage;
   public String iconUrl;
+  public String backgroundUrl;
   public Set<String> availableLanguageVersions;
   public Integer assignedItemsCount;
   public Boolean restricted;
