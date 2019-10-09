@@ -1,6 +1,7 @@
 package pl.hellopoland.dto;
 
 import java.util.List;
+import java.util.Set;
 
 public class MarketPartnerDTO extends DTOSuperclass {
 
@@ -15,5 +16,8 @@ public class MarketPartnerDTO extends DTOSuperclass {
   public String phone;
   public List<SightDTO> sights;
   public List<SightEventDTO> sightEvents;
+  public String defaultLanguage;
+  public Set<String> availableLanguageVersions;
+  public String language;
 
 }
