@@ -37,5 +37,5 @@ public class SightEventDTO extends DTOSuperclass {
   public Set<CategoryDTO> categories;
   public Set<TagDTO> tags;
   public List<SightEventDTO> similar;
-
+  public boolean favourite;
 }

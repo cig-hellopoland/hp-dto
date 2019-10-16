@@ -30,5 +30,5 @@ public class SightDTO extends DTOSuperclass {
   public List<SightDTO> similar;
   public Long partnerId;
   public String partnerName;
-
+  public boolean favourite;
 }
