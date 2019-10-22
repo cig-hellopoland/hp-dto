@@ -16,7 +16,7 @@ public class UserInfoDTO extends DTOSuperclass {
   public String zipCode;
   public String city;
   public String country;
-  public boolean tosAgreement;
+  public Boolean tosAgreement;
 
 
 }
