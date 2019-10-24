@@ -18,5 +18,7 @@ public class TicketDTO extends DTOSuperclass {
   public Long bookingId;
   public BookingDTO booking;
   public boolean wholeDay;
+  public Integer availableQuantity;
+  public Integer initialPoolQuantity;
 
 }
