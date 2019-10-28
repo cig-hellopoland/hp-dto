@@ -4,6 +4,7 @@ import java.io.ByteArrayOutputStream;
 import java.util.Date;
 import pl.hellopoland.dto.DTOSuperclass;
 import pl.hellopoland.dto.StatusDTO;
+import pl.hellopoland.dto.TicketPoolInfoDTO;
 
 public class TicketDTO extends DTOSuperclass {
   public Long id;
@@ -18,7 +19,8 @@ public class TicketDTO extends DTOSuperclass {
   public Long bookingId;
   public BookingDTO booking;
   public boolean wholeDay;
-  public Integer availableQuantity;
-  public Integer initialPoolQuantity;
+
+  public TicketPoolInfoDTO ticketPoolInfo;
+
 
 }
