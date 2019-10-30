@@ -2,6 +2,7 @@ package pl.hellopoland.dto;
 
 public class ImageDTO extends DTOSuperclass {
 
+  public Long id;
   public String qvg;
   public String qvgWebp;
   public String vga;
