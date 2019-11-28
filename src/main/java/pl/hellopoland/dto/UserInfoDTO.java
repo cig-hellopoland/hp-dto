@@ -18,5 +18,5 @@ public class UserInfoDTO extends DTOSuperclass {
   public String country;
   public Boolean tosAgreement;
 
-
+  public boolean addToMailingList;
 }
