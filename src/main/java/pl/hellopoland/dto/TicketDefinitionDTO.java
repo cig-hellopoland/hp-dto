@@ -10,7 +10,13 @@ public class TicketDefinitionDTO extends DTOSuperclass {
   public Integer price;
   public Long poolId;
 
-
   public List<Object> ticketPools;
+
+  // discount
+  public Boolean isHplOwner;
+  public Integer value;
+  public DiscountTypeDTO type;
+  public Integer hplPart;
+  public Integer partnerPart;
 
 }
