@@ -1,6 +1,5 @@
 package pl.hellopoland.dto;
 
-import java.math.BigDecimal;
 import java.util.List;
 
 public class TicketDefinitionDTO extends DTOSuperclass {
@@ -14,7 +13,6 @@ public class TicketDefinitionDTO extends DTOSuperclass {
   public List<Object> ticketPools;
 
   // discount
-  public BigDecimal commission;
   public Boolean discountIsHplOwner;
   public Integer discountValue;
   public DiscountTypeDTO discountType;
