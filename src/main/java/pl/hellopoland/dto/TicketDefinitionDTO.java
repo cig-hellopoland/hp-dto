@@ -9,6 +9,8 @@ public class TicketDefinitionDTO extends DTOSuperclass {
   public Integer availableTicketsNumber;
   public Integer price;
   public Long poolId;
+  public Long atnaId;
+  public Long partnerId;
 
   public List<Object> ticketPools;
 
