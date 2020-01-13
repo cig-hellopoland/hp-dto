@@ -13,10 +13,26 @@ public class TicketDefinitionDTO extends DTOSuperclass {
   public List<Object> ticketPools;
 
   // discount
+
   public Boolean discountIsHplOwner;
+  /** @formatter:off
+   * Can be in $ or $ based on discountType.
+   * 
+   * Example: 
+   * if discountValue is in % then value in cash($) is equal to price*discountValue 
+   * price = 100($) 
+   * discountValue = 20(%) 
+   * value($) = 100($) * (20/100) = 20($)
+   * 
+   * priceAfterDiscount = 100($) - 20($) = 80($)
+   */
   public Integer discountValue;
   public DiscountTypeDTO discountType;
-  public Integer discountHplPart;
-  public Integer discountPartnerPart;
+  
+  /**
+   * sum of parts is equal to discount value in $
+   */
+  public Integer discountHplPart; // always in $
+  public Integer discountPartnerPart; // always in $
 
 }
