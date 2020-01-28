@@ -1,4 +1,3 @@
-
 # Created by https://www.gitignore.io/api/maven,eclipse,windows
 
 ### Eclipse ###
@@ -100,3 +99,4 @@ $RECYCLE.BIN/
 .idea/
 **/*.iml
 
+.sts4-cache
