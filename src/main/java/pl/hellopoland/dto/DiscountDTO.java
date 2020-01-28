@@ -2,11 +2,14 @@ package pl.hellopoland.dto;
 
 public class DiscountDTO {
 
-  public DiscountTypeDTO type;
   public Integer percent;
-  public Integer value;
+  public Integer amount;
   public Integer price;
-  public Boolean isHplOwner;
+
+  public Integer value;
+  public DiscountTypeDTO type;
+
+  public Boolean isCustomCommision;
   public Integer hplPart;
   public Integer partnerPart;
 
