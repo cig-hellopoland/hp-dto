@@ -7,6 +7,7 @@ public class TicketDefinitionDTO extends DTOSuperclass {
   public Long id;
   public String name;
   public Integer availableTicketsNumber;
+  public Integer price;
   public Integer originalPrice;
   public Long poolId;
   public Long sightEventId;
@@ -17,10 +18,8 @@ public class TicketDefinitionDTO extends DTOSuperclass {
 
   public DiscountDTO discount;
 
-  public Integer getPrice() {
-    if (discount != null) {
-      return discount.price;
-    }
-    return originalPrice;
+  public void calculatePrice() {
+    this.price = discount != null ? discount.price : originalPrice;
   }
+
 }
