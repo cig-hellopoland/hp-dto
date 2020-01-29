@@ -9,7 +9,7 @@ public class DiscountDTO {
   public Integer value;
   public DiscountTypeDTO type;
 
-  public Boolean isCustomCommision;
+  public Boolean isCustomCommission;
   public Integer hplPart;
   public Integer partnerPart;
 
