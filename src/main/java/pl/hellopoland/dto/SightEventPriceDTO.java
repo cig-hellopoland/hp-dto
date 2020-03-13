@@ -4,5 +4,6 @@ public class SightEventPriceDTO {
 
   public Long id;
   public Integer price;
+  public Integer discountPrice;
 
 }

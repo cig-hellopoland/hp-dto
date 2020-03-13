@@ -18,6 +18,7 @@ public class SightEventDTO extends DTOSuperclass {
   public LocationDTO location;
   public Boolean generalAdmission;
   public Integer minPrice;
+  public Integer minDiscountPrice;
   public List<TicketPoolDefinitionDTO> ticketPoolDefinitions;
   public List<OpeningHoursDTO> openingHours;
   public List<AgreementDTO> agreements;
