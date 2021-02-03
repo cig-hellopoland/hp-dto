@@ -27,6 +27,8 @@ public class BookingDTO extends DTOSuperclass {
 
   public Boolean invoice;
 
+  public String buyerNotes;
+
   @Deprecated
   public Set<FileDescriptorDTO> sightEventPdfAttachments;
 }
