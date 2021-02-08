@@ -5,6 +5,6 @@ import java.util.List;
 public class ImagedDTO extends DTOSuperclass {
 
   public List<ImageDTO> images;
-  public ImageDTO image;
+  public ImageDTO mainImage;
 
 }
