@@ -4,6 +4,9 @@ import java.math.BigDecimal;
 import java.util.List;
 import java.util.Set;
 
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.Size;
+
 public class PartnerDTO extends DTOSuperclass {
 
   public Long id;
@@ -12,6 +15,8 @@ public class PartnerDTO extends DTOSuperclass {
   public List<SightEventDTO> sightEvents;
   public String token;
   public String email;
+
+  @Size(max = 1000)
   public String description;
   public String defaultLanguage;
   public Set<String> availableLanguageVersions;
@@ -21,11 +26,15 @@ public class PartnerDTO extends DTOSuperclass {
   public String password;
   public String affiliateCode;
   public Boolean affiliation;
+
+  @Valid
   public LocationDTO location;
   public String bankAccount;
   public ImageDTO mainImage;
   public Integer businessType;
   public ContactPersonDTO contactPerson;
+
+  @Valid
   public LocationDTO correspondenceAddress;
   public String invoiceEmail;
   public String krs;
@@ -34,6 +43,8 @@ public class PartnerDTO extends DTOSuperclass {
   public String phone;
   public String regon;
   public List<PartnerRepresentativeDTO> representatives;
+
+  @Size(max = 1000)
   public String servicesDescription;
   public String shopUrl;
   public ContactPersonDTO technicalContact;

@@ -30,4 +30,12 @@ public class SightDTO extends ImagedDTO {
   public Long partnerId;
   public String partnerName;
   public boolean favourite;
+  public Boolean animalsAllowed;
+  public Boolean carParkAvailable;
+  public Boolean foodAndDrinkAvailable;
+
+  public Boolean disabledAccessHearing;
+  public Boolean disabledAccessMovement;
+  public Boolean disabledAccessVision;
+
 }

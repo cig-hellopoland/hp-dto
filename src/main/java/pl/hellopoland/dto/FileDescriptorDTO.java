@@ -9,4 +9,5 @@ public class FileDescriptorDTO extends DTOSuperclass {
   public LocalDateTime created;
   public String type;
   public String name;
+  public String originalName;
 }

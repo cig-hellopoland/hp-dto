@@ -3,6 +3,9 @@ package pl.hellopoland.dto;
 import java.util.List;
 import java.util.Set;
 
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.Size;
+
 public class MarketPartnerDTO extends DTOSuperclass {
 
   public Long id;
@@ -10,7 +13,11 @@ public class MarketPartnerDTO extends DTOSuperclass {
   public List<CategoryDTO> categories;
   public ImageDTO mainImage;
   public List<String> cities;
+
+  @Size(max = 1000)
   public String description;
+
+  @Valid
   public LocationDTO location;
   public String email;
   public String phone;
