@@ -13,6 +13,8 @@ public class TicketDefinitionDTO extends DTOSuperclass {
   public Long sightEventId;
   public Long atnaId;
   public Long partnerId;
+  public Long ticketTypeId;
+  public TicketTypeDTO ticketType;
 
   public List<Object> ticketPools;
 
