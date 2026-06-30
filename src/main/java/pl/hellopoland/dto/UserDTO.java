@@ -1,5 +1,6 @@
 package pl.hellopoland.dto;
 
+import java.util.List;
 import java.util.Set;
 
 public class UserDTO extends DTOSuperclass {
@@ -8,4 +9,5 @@ public class UserDTO extends DTOSuperclass {
   public String email;
   public String password;
   public Set<RoleDTO> roles;
+  public List<Long> allowedSightIds;
 }
