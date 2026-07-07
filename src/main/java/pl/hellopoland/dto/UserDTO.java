@@ -8,6 +8,7 @@ public class UserDTO extends DTOSuperclass {
   public String name;
   public String email;
   public String password;
+  public Boolean blocked;
   public Set<RoleDTO> roles;
   public List<Long> allowedSightIds;
 }
