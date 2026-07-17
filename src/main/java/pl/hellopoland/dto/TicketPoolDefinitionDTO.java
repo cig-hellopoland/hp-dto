@@ -20,6 +20,9 @@ public class TicketPoolDefinitionDTO extends DTOSuperclass {
   public List<TicketDefinitionDTO> ticketDefinitions;
   public boolean deleted;
   public boolean wholeDay;
+  public TicketPoolTypeDTO poolType;
+  public Boolean visibleForPartner;
+  public Boolean visibleOnPortal;
 
   @Override
   public Object clone() throws CloneNotSupportedException {

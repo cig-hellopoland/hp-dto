@@ -21,5 +21,8 @@ public class TicketPoolDTO extends DTOSuperclass {
   public Long ticketPoolDefinitionId;
   public boolean wholeDay;
   public Boolean isCyclic;
+  public TicketPoolTypeDTO poolType;
+  public Boolean visibleForPartner;
+  public Boolean visibleOnPortal;
 
 }
