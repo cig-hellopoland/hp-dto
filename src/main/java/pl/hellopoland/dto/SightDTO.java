@@ -12,6 +12,7 @@ public class SightDTO extends ImagedDTO {
   public Float score;
   public String email;
   public String phone;
+  public String googlePlaceId;
   public Boolean generalAdmission;
   public LocationDTO location;
   public List<SightEventDTO> sightEvents;

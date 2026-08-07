@@ -10,6 +10,7 @@ public class FilterDTO {
   public LocalDate fromDate = LocalDate.now();
   public LocalDate toDate = LocalDate.now().plusDays(30);
   public List<String> city = new ArrayList<>();
+  public List<String> voivodeship = new ArrayList<>();
   public List<FilterPriceEntryDTO> prices = new ArrayList<>();
   public List<TagDTO> tags = new ArrayList<>();
   public List<CategoryDTO> categories = new ArrayList<>();

@@ -6,6 +6,7 @@ import java.util.Set;
 public class SightEventDTO extends ImagedDTO {
 
   public Long id;
+  public Long hptId;
   public String name;
   public String lead;
   public String description;
