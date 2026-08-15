@@ -13,5 +13,6 @@ public class TagDTO extends DTOSuperclass {
   public Integer assignedItemsCount;
   public Boolean restricted;
   public Boolean recommended;
+  public Boolean promotional;
 
 }
